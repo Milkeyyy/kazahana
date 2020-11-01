@@ -38,18 +38,8 @@
       "value": "Blocks.DIRT#0"
     },
     "airColor": {
-      "value": -4138753,
-      "frgbvalue": [
-        0.753,
-        0.847,
-        1.0
-      ],
-      "fvalue": [
-        0.753,
-        0.847,
-        1.0
-      ],
-      "falpha": 1.0
+      "value": -4139009,
+      "falpha": 0.0
     },
     "canRespawnHere": false,
     "hasFog": false,
