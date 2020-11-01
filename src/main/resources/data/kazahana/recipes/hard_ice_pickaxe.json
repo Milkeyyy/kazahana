@@ -1,0 +1,30 @@
+{
+  "group": "hardicepickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "kazahana:hard_ice"
+    },
+    "1": {
+      "item": "kazahana:hard_ice"
+    },
+    "2": {
+      "item": "kazahana:hard_ice"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "kazahana:hardice_pickaxe",
+    "count": 1
+  }
+}

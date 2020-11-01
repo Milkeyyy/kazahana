@@ -222,6 +222,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hard_ice_armor_armor_boots_recipe"
+    },
+    {
+      "name": "HardIcePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice_pickaxe_recipe"
+    },
+    {
+      "name": "HardIceAxeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice_axe_recipe"
+    },
+    {
+      "name": "HardIceShovelRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice_shovel_recipe"
+    },
+    {
+      "name": "HardIceSwordRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice_sword_recipe"
+    },
+    {
+      "name": "HardIceHoeRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice_hoe_recipe"
     }
   ],
   "variable_elements": [
