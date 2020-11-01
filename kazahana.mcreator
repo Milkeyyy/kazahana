@@ -159,7 +159,7 @@
     "version": "0.1.0-alpha",
     "description": "Kazahana Mod adds new winter-themed dimensions and items to the world of Minecraft.",
     "author": "Milkeyyy, Sirokane",
-    "websiteURL": "https://github.com/Milkeyyy/kazahana",
+    "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

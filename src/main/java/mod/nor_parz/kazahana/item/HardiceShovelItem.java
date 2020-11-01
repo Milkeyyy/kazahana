@@ -33,11 +33,11 @@ public class HardiceShovelItem extends KazahanaModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 1f;
+				return 0f;
 			}
 
 			public int getHarvestLevel() {
-				return 3;
+				return 2;
 			}
 
 			public int getEnchantability() {

@@ -33,11 +33,11 @@ public class HardicePickaxeItem extends KazahanaModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return -0.5f;
 			}
 
 			public int getHarvestLevel() {
-				return 3;
+				return 2;
 			}
 
 			public int getEnchantability() {
@@ -47,7 +47,7 @@ public class HardicePickaxeItem extends KazahanaModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(HardiceBlock.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(TabToolsItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(TabToolsItemGroup.tab)) {
 		}.setRegistryName("hardice_pickaxe"));
 	}
 }

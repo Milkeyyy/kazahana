@@ -33,11 +33,11 @@ public class HardiceAxeItem extends KazahanaModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 1.8f;
+				return 4.5f;
 			}
 
 			public int getHarvestLevel() {
-				return 3;
+				return 2;
 			}
 
 			public int getEnchantability() {
@@ -47,7 +47,7 @@ public class HardiceAxeItem extends KazahanaModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(HardiceBlock.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(TabToolsItemGroup.tab)) {
+		}, 1, -3.1f, new Item.Properties().group(TabToolsItemGroup.tab)) {
 		}.setRegistryName("hardice_axe"));
 	}
 }
