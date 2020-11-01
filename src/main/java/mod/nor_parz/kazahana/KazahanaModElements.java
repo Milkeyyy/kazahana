@@ -12,7 +12,6 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.biome.Biome;
 import net.minecraft.util.ResourceLocation;
@@ -60,7 +59,6 @@ public class KazahanaModElements {
 		}
 		Collections.sort(elements);
 		elements.forEach(KazahanaModElements.ModElement::initElements);
-		MinecraftForge.EVENT_BUS.register(new KazahanaModVariables(this));
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {

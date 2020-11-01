@@ -278,20 +278,7 @@
       "registry_name": "ezo_deer"
     }
   ],
-  "variable_elements": [
-    {
-      "name": "Kazahana_Mod",
-      "type": "string",
-      "scope": "global",
-      "value": ""
-    },
-    {
-      "name": "CrashedIce_RC_Block",
-      "type": "string",
-      "scope": "global",
-      "value": ""
-    }
-  ],
+  "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
