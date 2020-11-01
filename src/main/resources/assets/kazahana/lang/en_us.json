@@ -7,7 +7,7 @@
   "item.kazahana.hardice_hoe": "Hard Ice Hoe",
   "item.kazahana.test": "Test Portal Igniter",
   "item.kazahana.hardice_pickaxe": "Hard Ice Pickaxe",
-  "itemGroup.tabtab_tools": "[Kazahana] Tools",
-  "itemGroup.tabtab_materials": "[Kazahana] Blocks/Materials",
+  "itemGroup.tabtab_tools": "Tools [Kazahana]",
+  "itemGroup.tabtab_materials": "Blocks/Materials [Kazahana]",
   "item.kazahana.hardice_shovel": "Hard Ice Shovel"
 }
