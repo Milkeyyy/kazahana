@@ -3,7 +3,7 @@ loaderVersion="[28,)"
 
 [[mods]]
 modId="kazahana"
-version="0.1.0-alpha"
+version="0.0.1-test"
 displayName="Kazahana Mod"
 credits="Created by Nor <parz> using MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"

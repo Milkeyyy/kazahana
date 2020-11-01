@@ -157,7 +157,7 @@
     {
       "name": "GlisteningIceRecipe",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -166,7 +166,7 @@
     {
       "name": "HardIceLootTable",
       "type": "loottable",
-      "sortid": 20,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -225,7 +225,7 @@
   "workspaceSettings": {
     "modid": "kazahana",
     "modName": "Kazahana Mod",
-    "version": "0.1.0-alpha",
+    "version": "0.0.1-test",
     "description": "Kazahana Mod adds new winter-themed dimensions and items to the world of Minecraft.",
     "author": "Milkeyyy, Sirokane",
     "websiteURL": "https://mcreator.net",
