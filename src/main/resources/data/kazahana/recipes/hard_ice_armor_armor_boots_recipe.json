@@ -1,0 +1,26 @@
+{
+  "group": "hardicearmor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "kazahana:hard_ice"
+    },
+    "2": {
+      "item": "kazahana:hard_ice"
+    },
+    "3": {
+      "item": "kazahana:hard_ice"
+    },
+    "5": {
+      "item": "kazahana:hard_ice"
+    }
+  },
+  "result": {
+    "item": "kazahana:hard_ice_armor_armor_boots",
+    "count": 1
+  }
+}

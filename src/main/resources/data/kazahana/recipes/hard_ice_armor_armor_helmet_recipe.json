@@ -1,0 +1,29 @@
+{
+  "group": "hardicearmor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "kazahana:hard_ice"
+    },
+    "1": {
+      "item": "kazahana:hard_ice"
+    },
+    "2": {
+      "item": "kazahana:hard_ice"
+    },
+    "3": {
+      "item": "kazahana:hard_ice"
+    },
+    "5": {
+      "item": "kazahana:hard_ice"
+    }
+  },
+  "result": {
+    "item": "kazahana:hard_ice_armor_armor_helmet",
+    "count": 1
+  }
+}

@@ -171,6 +171,57 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hard_ice_loot_table"
+    },
+    {
+      "name": "HardIceArmorArmor",
+      "type": "armor",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HardIceArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "HardIceArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice_armor_armor_body_recipe"
+    },
+    {
+      "name": "HardIceArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "HardIceArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice_armor_armor_boots_recipe"
     }
   ],
   "variable_elements": [
@@ -191,14 +242,18 @@
   "language_map": {
     "en_us": {
       "item.kazahana.mafuyu": "Crushed Ice",
+      "item.kazahana.hard_ice_armor_armor_leggings": "Hard Ice Leggings",
       "block.kazahana.hard_ice": "Hard Ice",
       "item.kazahana.hardice_axe": "Hard Ice Axe",
       "item.kazahana.test": "Test Portal Igniter",
       "item.kazahana.snow_golem_crystals": "Snow Golem Crystals",
       "itemGroup.tabtab_tools": "Tools [Kazahana]",
+      "item.kazahana.hard_ice_armor_armor_boots": "Hard Ice Boots",
       "item.kazahana.hardice_sword": "Hard Ice Sword",
       "itemGroup.tabtab_foods": "Foods [Kazahana]",
       "item.kazahana.hardice_hoe": "Hard Ice Hoe",
+      "item.kazahana.hard_ice_armor_armor_chestplate": "Hard Ice Chestplate",
+      "item.kazahana.hard_ice_armor_armor_helmet": "Hard Ice Helmet",
       "item.kazahana.hardice_pickaxe": "Hard Ice Pickaxe",
       "block.kazahana.glistening_ice": "Glistening Ice",
       "itemGroup.tabtab_materials": "Blocks/Materials [Kazahana]",
@@ -207,14 +262,18 @@
     },
     "ja_jp": {
       "item.kazahana.mafuyu": "ç”Ç¢ÇΩïX",
+      "item.kazahana.hard_ice_armor_armor_leggings": "HardIceArmor Leggings",
       "block.kazahana.hard_ice": "çdÇ¢ïX",
       "item.kazahana.hardice_axe": "çdÇ¢ïXÇÃïÄ",
       "item.kazahana.test": "Test Portal Igniter",
       "item.kazahana.snow_golem_crystals": "ÉXÉmÉEÉSÅ[ÉåÉÄÇÃåãèª",
       "itemGroup.tabtab_tools": "Tools [Kazahana]",
+      "item.kazahana.hard_ice_armor_armor_boots": "HardIceArmor Boots",
       "item.kazahana.hardice_sword": "çdÇ¢ïXÇÃåï",
       "itemGroup.tabtab_foods": "Foods [Kazahana]",
       "item.kazahana.hardice_hoe": "çdÇ¢ïXÇÃÉNÉè",
+      "item.kazahana.hard_ice_armor_armor_chestplate": "HardIceArmor Chestplate",
+      "item.kazahana.hard_ice_armor_armor_helmet": "HardIceArmor Helmet",
       "item.kazahana.hardice_pickaxe": "çdÇ¢ïXÇÃÉcÉãÉnÉV",
       "block.kazahana.glistening_ice": "ãPÇ≠ïX",
       "itemGroup.tabtab_materials": "Blocks/Materials [Kazahana]",
@@ -225,7 +284,7 @@
   "workspaceSettings": {
     "modid": "kazahana",
     "modName": "Kazahana Mod",
-    "version": "0.0.1-test",
+    "version": "0.0.2-test",
     "description": "Kazahana Mod adds new winter-themed dimensions and items to the world of Minecraft.",
     "author": "Milkeyyy, Sirokane",
     "websiteURL": "https://mcreator.net",
