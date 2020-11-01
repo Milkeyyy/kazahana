@@ -104,7 +104,7 @@ public class TestDimension extends KazahanaModElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public TestDimension(KazahanaModElements instance) {
-		super(instance, 1);
+		super(instance, 11);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

@@ -14,7 +14,7 @@
     },
     "igniterName": "Test Portal Igniter",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "No creative tab entry"
     },
     "texture": "test_igniter",
     "portalTexture": "portal_block",

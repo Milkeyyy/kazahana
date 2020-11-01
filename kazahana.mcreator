@@ -4,7 +4,7 @@
     {
       "name": "Test",
       "type": "dimension",
-      "sortid": 1,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -13,7 +13,7 @@
     {
       "name": "Mafuyu",
       "type": "dimension",
-      "sortid": 7,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "TabTools",
       "type": "tab",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "TabMaterials",
       "type": "tab",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "TabFoods",
       "type": "tab",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "HardicePickaxe",
       "type": "tool",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "HardiceAxe",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "HardiceShovel",
       "type": "tool",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "HardiceSword",
       "type": "tool",
-      "sortid": 6,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "HardiceHoe",
       "type": "tool",
-      "sortid": 5,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "HardiceRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "TestBiome",
       "type": "biome",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "MGU",
       "type": "block",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "SnowGolemCrystalsDropLoot",
       "type": "loottable",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -157,7 +157,7 @@
     {
       "name": "GlisteningIceRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -166,7 +166,7 @@
     {
       "name": "HardIceLootTable",
       "type": "loottable",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -175,7 +175,7 @@
     {
       "name": "HardIceArmorArmor",
       "type": "armor",
-      "sortid": 20,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -307,21 +307,21 @@
     },
     "ja_jp": {
       "item.kazahana.mafuyu": "Ó‚¢‚½•X",
-      "item.kazahana.hard_ice_armor_armor_leggings": "HardIceArmor Leggings",
+      "item.kazahana.hard_ice_armor_armor_leggings": "d‚¢•X‚ÌƒŒƒMƒ“ƒX",
       "block.kazahana.hard_ice": "d‚¢•X",
       "item.kazahana.hardice_axe": "d‚¢•X‚Ì•€",
       "item.kazahana.test": "Test Portal Igniter",
       "item.kazahana.snow_golem_crystals": "ƒXƒmƒEƒS[ƒŒƒ€‚ÌŒ‹»",
-      "itemGroup.tabtab_tools": "Tools [Kazahana]",
-      "item.kazahana.hard_ice_armor_armor_boots": "HardIceArmor Boots",
+      "itemGroup.tabtab_tools": "ƒc[ƒ‹ [Kazahana]",
+      "item.kazahana.hard_ice_armor_armor_boots": "d‚¢•X‚Ìƒu[ƒc",
       "item.kazahana.hardice_sword": "d‚¢•X‚ÌŒ•",
-      "itemGroup.tabtab_foods": "Foods [Kazahana]",
+      "itemGroup.tabtab_foods": "H‚×•¨ [Kazahana]",
       "item.kazahana.hardice_hoe": "d‚¢•X‚ÌƒNƒ",
-      "item.kazahana.hard_ice_armor_armor_chestplate": "HardIceArmor Chestplate",
-      "item.kazahana.hard_ice_armor_armor_helmet": "HardIceArmor Helmet",
+      "item.kazahana.hard_ice_armor_armor_chestplate": "d‚¢•X‚Ìƒ`ƒFƒXƒgƒvƒŒ[ƒg",
+      "item.kazahana.hard_ice_armor_armor_helmet": "d‚¢•X‚Ìƒwƒ‹ƒƒbƒg",
       "item.kazahana.hardice_pickaxe": "d‚¢•X‚Ìƒcƒ‹ƒnƒV",
       "block.kazahana.glistening_ice": "‹P‚­•X",
-      "itemGroup.tabtab_materials": "Blocks/Materials [Kazahana]",
+      "itemGroup.tabtab_materials": "ƒuƒƒbƒN/‘fŞ [Kazahana]",
       "item.kazahana.hardice_shovel": "d‚¢•X‚ÌƒVƒƒƒxƒ‹",
       "block.kazahana.mgu": "MGU"
     }
