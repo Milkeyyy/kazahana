@@ -267,6 +267,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hard_ice_hoe_recipe"
+    },
+    {
+      "name": "EzoDeer",
+      "type": "mob",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ezo_deer"
     }
   ],
   "variable_elements": [
@@ -290,7 +299,9 @@
       "item.kazahana.hard_ice_armor_armor_leggings": "Hard Ice Leggings",
       "block.kazahana.hard_ice": "Hard Ice",
       "item.kazahana.hardice_axe": "Hard Ice Axe",
+      "item.kazahana.ezo_deer": "Ezo Deer Spawn Egg",
       "item.kazahana.test": "Test Portal Igniter",
+      "entity.kazahana.ezo_deer": "Ezo Deer",
       "item.kazahana.snow_golem_crystals": "Snow Golem Crystals",
       "itemGroup.tabtab_tools": "Tools [Kazahana]",
       "item.kazahana.hard_ice_armor_armor_boots": "Hard Ice Boots",
@@ -310,7 +321,9 @@
       "item.kazahana.hard_ice_armor_armor_leggings": "d‚¢•X‚ÌƒŒƒMƒ“ƒX",
       "block.kazahana.hard_ice": "d‚¢•X",
       "item.kazahana.hardice_axe": "d‚¢•X‚Ì•€",
+      "item.kazahana.ezo_deer": "Ezo Deer Spawn Egg",
       "item.kazahana.test": "Test Portal Igniter",
+      "entity.kazahana.ezo_deer": "Ezo Deer",
       "item.kazahana.snow_golem_crystals": "ƒXƒmƒEƒS[ƒŒƒ€‚ÌŒ‹»",
       "itemGroup.tabtab_tools": "ƒc[ƒ‹ [Kazahana]",
       "item.kazahana.hard_ice_armor_armor_boots": "d‚¢•X‚Ìƒu[ƒc",
@@ -332,7 +345,7 @@
     "version": "0.0.2-test",
     "description": "Kazahana Mod adds new winter-themed dimensions and items to the world of Minecraft.",
     "author": "Milkeyyy, Sirokane",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "http://bit.ly/nor-parz_kazahanamod-ws",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "kazahana_logo_v2-1_1_test",
