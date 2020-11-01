@@ -75,7 +75,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import mod.nor_parz.kazahana.item.MafuyuItem;
-import mod.nor_parz.kazahana.block.HardiceBlock;
+import mod.nor_parz.kazahana.block.GlisteningIceBlock;
 import mod.nor_parz.kazahana.KazahanaModElements;
 
 import javax.annotation.Nullable;
@@ -340,12 +340,12 @@ public class MafuyuDimension extends KazahanaModElements.ModElement {
 				for (i = 0; i < 22; ++i) {
 					BlockPos blockpos = p_180120_1_.offset(p_180120_2_, i);
 					if (!this.func_196900_a(this.world.getBlockState(blockpos))
-							|| !(this.world.getBlockState(blockpos.down()).getBlock() == HardiceBlock.block.getDefaultState().getBlock())) {
+							|| !(this.world.getBlockState(blockpos.down()).getBlock() == GlisteningIceBlock.block.getDefaultState().getBlock())) {
 						break;
 					}
 				}
 				BlockPos framePos = p_180120_1_.offset(p_180120_2_, i);
-				return (this.world.getBlockState(framePos).getBlock() == HardiceBlock.block.getDefaultState().getBlock()) ? i : 0;
+				return (this.world.getBlockState(framePos).getBlock() == GlisteningIceBlock.block.getDefaultState().getBlock()) ? i : 0;
 			}
 
 			public int getHeight() {
@@ -370,12 +370,12 @@ public class MafuyuDimension extends KazahanaModElements.ModElement {
 						}
 						if (i == 0) {
 							BlockPos framePos = blockpos.offset(this.leftDir);
-							if (!(this.world.getBlockState(framePos).getBlock() == HardiceBlock.block.getDefaultState().getBlock())) {
+							if (!(this.world.getBlockState(framePos).getBlock() == GlisteningIceBlock.block.getDefaultState().getBlock())) {
 								break label56;
 							}
 						} else if (i == this.width - 1) {
 							BlockPos framePos = blockpos.offset(this.rightDir);
-							if (!(this.world.getBlockState(framePos).getBlock() == HardiceBlock.block.getDefaultState().getBlock())) {
+							if (!(this.world.getBlockState(framePos).getBlock() == GlisteningIceBlock.block.getDefaultState().getBlock())) {
 								break label56;
 							}
 						}
@@ -383,7 +383,7 @@ public class MafuyuDimension extends KazahanaModElements.ModElement {
 				}
 				for (int j = 0; j < this.width; ++j) {
 					BlockPos framePos = this.bottomLeft.offset(this.rightDir, j).up(this.height);
-					if (!(this.world.getBlockState(framePos).getBlock() == HardiceBlock.block.getDefaultState().getBlock())) {
+					if (!(this.world.getBlockState(framePos).getBlock() == GlisteningIceBlock.block.getDefaultState().getBlock())) {
 						this.height = 0;
 						break;
 					}
@@ -561,7 +561,7 @@ public class MafuyuDimension extends KazahanaModElements.ModElement {
 							boolean flag = i9 < 0;
 							blockpos$mutableblockpos.setPos(l9, j10, l10);
 							this.world.setBlockState(blockpos$mutableblockpos,
-									flag ? HardiceBlock.block.getDefaultState().getBlock().getDefaultState() : Blocks.AIR.getDefaultState());
+									flag ? GlisteningIceBlock.block.getDefaultState().getBlock().getDefaultState() : Blocks.AIR.getDefaultState());
 						}
 					}
 				}
@@ -570,7 +570,8 @@ public class MafuyuDimension extends KazahanaModElements.ModElement {
 				for (int j8 = -1; j8 < 4; ++j8) {
 					if (k7 == -1 || k7 == 2 || j8 == -1 || j8 == 3) {
 						blockpos$mutableblockpos.setPos(i6 + k7 * l6, k2 + j8, k6 + k7 * i3);
-						this.world.setBlockState(blockpos$mutableblockpos, HardiceBlock.block.getDefaultState().getBlock().getDefaultState(), 3);
+						this.world.setBlockState(blockpos$mutableblockpos, GlisteningIceBlock.block.getDefaultState().getBlock().getDefaultState(),
+								3);
 					}
 				}
 			}

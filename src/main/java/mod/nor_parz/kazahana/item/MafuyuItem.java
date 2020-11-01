@@ -8,17 +8,17 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 
 import mod.nor_parz.kazahana.world.dimension.MafuyuDimension;
+import mod.nor_parz.kazahana.itemgroup.TabToolsItemGroup;
 
 public class MafuyuItem extends Item {
 	@ObjectHolder("kazahana:mafuyu")
 	public static final Item block = null;
 	public MafuyuItem() {
-		super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(64));
+		super(new Item.Properties().group(TabToolsItemGroup.tab).maxDamage(64));
 	}
 
 	@Override

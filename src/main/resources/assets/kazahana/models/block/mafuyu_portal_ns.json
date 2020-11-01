@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "kazahana:blocks/portal_block",
-    "portal": "kazahana:blocks/portal_block"
+    "particle": "kazahana:blocks/mafuyu_dimention_portal",
+    "portal": "kazahana:blocks/mafuyu_dimention_portal"
   },
   "elements": [
     {

@@ -3,7 +3,7 @@
   "_type": "dimension",
   "definition": {
     "portalFrame": {
-      "value": "CUSTOM:Hardice"
+      "value": "CUSTOM:GlisteningIce"
     },
     "portalParticles": {
       "value": "PORTAL"
@@ -12,12 +12,12 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Mafuyu Portal Igniter",
+    "igniterName": "Crushed Ice",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:TabTools"
     },
-    "texture": "test_igniter",
-    "portalTexture": "portal_block",
+    "texture": "crushed_ice",
+    "portalTexture": "mafuyu_dimention_portal",
     "enablePortal": true,
     "biomesInDimension": [
       {

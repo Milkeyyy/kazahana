@@ -1,0 +1,27 @@
+{
+  "_fv": 10,
+  "_type": "loottable",
+  "definition": {
+    "type": "Entity",
+    "pools": [
+      {
+        "minrolls": 0,
+        "maxrolls": 1,
+        "minbonusrolls": 0,
+        "maxbonusrolls": 0,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:SnowgolemCrystals"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "name": "entities/snow_golem",
+    "namespace": "minecraft"
+  }
+}

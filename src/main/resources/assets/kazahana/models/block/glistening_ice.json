@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kazahana:blocks/glistening_ice",
+    "up": "kazahana:blocks/glistening_ice",
+    "north": "kazahana:blocks/glistening_ice",
+    "east": "kazahana:blocks/glistening_ice",
+    "south": "kazahana:blocks/glistening_ice",
+    "west": "kazahana:blocks/glistening_ice",
+    "particle": "kazahana:blocks/glistening_ice"
+  }
+}

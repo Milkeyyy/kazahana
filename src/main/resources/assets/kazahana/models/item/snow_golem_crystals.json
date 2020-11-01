@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kazahana:items/crushed_ice"
+    "layer0": "kazahana:items/snowgolem_crystals"
   }
 }
