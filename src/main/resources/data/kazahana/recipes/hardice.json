@@ -1,0 +1,26 @@
+{
+  "group": "hardice",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_ice"
+    },
+    "1": {
+      "item": "minecraft:blue_ice"
+    },
+    "2": {
+      "item": "minecraft:blue_ice"
+    },
+    "3": {
+      "item": "minecraft:blue_ice"
+    }
+  },
+  "result": {
+    "item": "kazahana:hard_ice",
+    "count": 1
+  }
+}

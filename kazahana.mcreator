@@ -1,0 +1,165 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test"
+    },
+    {
+      "name": "Mafuyu",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mafuyu"
+    },
+    {
+      "name": "TabTools",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tab_tools"
+    },
+    {
+      "name": "TabMaterials",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tab_materials"
+    },
+    {
+      "name": "TabFoods",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tab_foods"
+    },
+    {
+      "name": "Hardice",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice"
+    },
+    {
+      "name": "HardicePickaxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardice_pickaxe"
+    },
+    {
+      "name": "HardiceAxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardice_axe"
+    },
+    {
+      "name": "HardiceShovel",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardice_shovel"
+    },
+    {
+      "name": "HardiceSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardice_sword"
+    },
+    {
+      "name": "HardiceHoe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardice_hoe"
+    },
+    {
+      "name": "HardiceRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardice_recipe"
+    },
+    {
+      "name": "TestBiome",
+      "type": "biome",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_biome"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Kazahana_Mod",
+      "type": "string",
+      "scope": "global",
+      "value": ""
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.kazahana.mafuyu": "Mafuyu Portal Igniter",
+      "item.kazahana.hardice_sword": "Hard Ice Sword",
+      "itemGroup.tabtab_foods": "[Kazahana] Foods",
+      "block.kazahana.hard_ice": "Hard Ice",
+      "item.kazahana.hardice_axe": "Hard Ice Axe",
+      "item.kazahana.hardice_hoe": "Hard Ice Hoe",
+      "item.kazahana.test": "Test Portal Igniter",
+      "item.kazahana.hardice_pickaxe": "Hard Ice Pickaxe",
+      "itemGroup.tabtab_tools": "[Kazahana] Tools",
+      "itemGroup.tabtab_materials": "[Kazahana] Blocks/Materials",
+      "item.kazahana.hardice_shovel": "Hard Ice Shovel"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "kazahana",
+    "modName": "Kazahana Mod",
+    "version": "0.1.0-alpha",
+    "description": "Kazahana Mod adds new winter-themed dimensions and items to the world of Minecraft.",
+    "author": "Milkeyyy, Sirokane",
+    "websiteURL": "https://sites.google.com/view/nor-parz/mc-mods/kazahana",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.14.4",
+    "credits": "Created by Nor \u003cparz\u003e using MCreator - https://mcreator.net/about",
+    "modElementsPackage": "mod.nor_parz.kazahana",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

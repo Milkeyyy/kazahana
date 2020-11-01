@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "[Kazahana] Tools",
+    "icon": {
+      "value": "CUSTOM:HardicePickaxe"
+    },
+    "showSearch": false
+  }
+}
