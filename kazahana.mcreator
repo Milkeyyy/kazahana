@@ -341,7 +341,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.14.4",
-    "credits": "Created by Nor \u003cparz\u003e using MCreator - https://mcreator.net/about",
+    "credits": "Created by Nor \u003cparz\u003e using MCreator - https://mcreator.net/about | Licence: https://raw.githubusercontent.com/Milkeyyy/kazahana/master/LICENSE",
     "modElementsPackage": "mod.nor_parz.kazahana",
     "lockBaseModFiles": false
   },
