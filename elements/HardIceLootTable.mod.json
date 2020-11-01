@@ -17,11 +17,18 @@
               "value": "CUSTOM:Mafuyu"
             },
             "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Hardice"
+            },
+            "weight": 1
           }
         ]
       }
     ],
-    "name": "hard_ice_loot",
+    "name": "blocks/hard_ice",
     "namespace": "mod"
   }
 }

@@ -2,6 +2,8 @@
 package mod.nor_parz.kazahana.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
@@ -21,7 +23,7 @@ public class SnowgolemCrystalsItem extends KazahanaModElements.ModElement {
 	@ObjectHolder("kazahana:snow_golem_crystals")
 	public static final Item block = null;
 	public SnowgolemCrystalsItem(KazahanaModElements instance) {
-		super(instance, 15);
+		super(instance, 10);
 	}
 
 	@Override
@@ -47,6 +49,12 @@ public class SnowgolemCrystalsItem extends KazahanaModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
+		}
+
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
+			return true;
 		}
 
 		@Override

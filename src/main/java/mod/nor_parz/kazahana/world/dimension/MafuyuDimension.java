@@ -105,7 +105,7 @@ public class MafuyuDimension extends KazahanaModElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public MafuyuDimension(KazahanaModElements instance) {
-		super(instance, 2);
+		super(instance, 7);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

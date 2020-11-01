@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "snowgolem_crystals",
     "customModelName": "Normal",
-    "name": "SnowÅ@Golem Crystals",
+    "name": "Snow Golem Crystals",
     "creativeTab": {
       "value": "CUSTOM:TabMaterials"
     },
@@ -22,7 +22,7 @@
     "specialInfo": [
       "Very cold and shiny."
     ],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64

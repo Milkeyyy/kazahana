@@ -13,7 +13,7 @@
     {
       "name": "Mafuyu",
       "type": "dimension",
-      "sortid": 2,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "TabTools",
       "type": "tab",
-      "sortid": 9,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "TabMaterials",
       "type": "tab",
-      "sortid": 10,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "TabFoods",
       "type": "tab",
-      "sortid": 11,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "Hardice",
       "type": "block",
-      "sortid": 3,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "HardicePickaxe",
       "type": "tool",
-      "sortid": 5,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "HardiceAxe",
       "type": "tool",
-      "sortid": 6,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "HardiceShovel",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "HardiceSword",
       "type": "tool",
-      "sortid": 8,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "HardiceHoe",
       "type": "tool",
-      "sortid": 7,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "HardiceRecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "TestBiome",
       "type": "biome",
-      "sortid": 13,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "MGU",
       "type": "block",
-      "sortid": 14,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "SnowgolemCrystals",
       "type": "item",
-      "sortid": 15,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "SnowGolemCrystalsDropLoot",
       "type": "loottable",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -148,16 +148,25 @@
     {
       "name": "GlisteningIce",
       "type": "block",
-      "sortid": 17,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "glistening_ice"
     },
     {
+      "name": "GlisteningIceRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glistening_ice_recipe"
+    },
+    {
       "name": "HardIceLootTable",
       "type": "loottable",
-      "sortid": 18,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -170,6 +179,12 @@
       "type": "string",
       "scope": "global",
       "value": ""
+    },
+    {
+      "name": "CrashedIce_RC_Block",
+      "type": "string",
+      "scope": "global",
+      "value": ""
     }
   ],
   "sound_elements": [],
@@ -179,10 +194,10 @@
       "block.kazahana.hard_ice": "Hard Ice",
       "item.kazahana.hardice_axe": "Hard Ice Axe",
       "item.kazahana.test": "Test Portal Igniter",
-      "item.kazahana.snow_golem_crystals": "SnowÅ@Golem Crystals",
+      "item.kazahana.snow_golem_crystals": "Snow Golem Crystals",
       "itemGroup.tabtab_tools": "Tools [Kazahana]",
       "item.kazahana.hardice_sword": "Hard Ice Sword",
-      "itemGroup.tabtab_foods": "[Kazahana] Foods",
+      "itemGroup.tabtab_foods": "Foods [Kazahana]",
       "item.kazahana.hardice_hoe": "Hard Ice Hoe",
       "item.kazahana.hardice_pickaxe": "Hard Ice Pickaxe",
       "block.kazahana.glistening_ice": "Glistening Ice",

@@ -1,0 +1,16 @@
+{
+  "group": "glisteningice",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kazahana:hard_ice"
+    },
+    {
+      "item": "kazahana:snow_golem_crystals"
+    }
+  ],
+  "result": {
+    "item": "kazahana:glistening_ice",
+    "count": 1
+  }
+}
