@@ -335,6 +335,7 @@
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "kazahana_logo_v2-1_1",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
