@@ -21,7 +21,6 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -42,13 +41,14 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.Blocks;
 
+import mod.nor_parz.kazahana.itemgroup.TabMaterialsItemGroup;
 import mod.nor_parz.kazahana.KazahanaModElements;
 
 @KazahanaModElements.ModElement.Tag
 public class EzoDeerEntity extends KazahanaModElements.ModElement {
 	public static EntityType entity = null;
 	public EzoDeerEntity(KazahanaModElements instance) {
-		super(instance, 30);
+		super(instance, 11);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -58,7 +58,8 @@ public class EzoDeerEntity extends KazahanaModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.2000000000000002f))
 						.build("ezo_deer").setRegistryName("ezo_deer");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("ezo_deer"));
+		elements.items
+				.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(TabMaterialsItemGroup.tab)).setRegistryName("ezo_deer"));
 	}
 
 	@Override
