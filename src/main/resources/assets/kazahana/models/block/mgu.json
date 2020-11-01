@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kazahana:blocks/portal_block",
+    "up": "kazahana:blocks/portal_block",
+    "north": "kazahana:blocks/portal_block",
+    "east": "kazahana:blocks/portal_block",
+    "south": "kazahana:blocks/portal_block",
+    "west": "kazahana:blocks/portal_block",
+    "particle": "kazahana:blocks/portal_block"
+  }
+}

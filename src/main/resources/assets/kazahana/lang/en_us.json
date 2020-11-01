@@ -1,13 +1,14 @@
 {
   "item.kazahana.mafuyu": "Mafuyu Portal Igniter",
-  "item.kazahana.hardice_sword": "Hard Ice Sword",
-  "itemGroup.tabtab_foods": "[Kazahana] Foods",
   "block.kazahana.hard_ice": "Hard Ice",
   "item.kazahana.hardice_axe": "Hard Ice Axe",
-  "item.kazahana.hardice_hoe": "Hard Ice Hoe",
   "item.kazahana.test": "Test Portal Igniter",
-  "item.kazahana.hardice_pickaxe": "Hard Ice Pickaxe",
   "itemGroup.tabtab_tools": "Tools [Kazahana]",
+  "item.kazahana.hardice_sword": "Hard Ice Sword",
+  "itemGroup.tabtab_foods": "[Kazahana] Foods",
+  "item.kazahana.hardice_hoe": "Hard Ice Hoe",
+  "item.kazahana.hardice_pickaxe": "Hard Ice Pickaxe",
   "itemGroup.tabtab_materials": "Blocks/Materials [Kazahana]",
-  "item.kazahana.hardice_shovel": "Hard Ice Shovel"
+  "item.kazahana.hardice_shovel": "Hard Ice Shovel",
+  "block.kazahana.mgu": "MGU"
 }
