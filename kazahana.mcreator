@@ -204,6 +204,22 @@
       "itemGroup.tabtab_materials": "Blocks/Materials [Kazahana]",
       "item.kazahana.hardice_shovel": "Hard Ice Shovel",
       "block.kazahana.mgu": "MGU"
+    },
+    "ja_jp": {
+      "item.kazahana.mafuyu": "Ó‚¢‚½•X",
+      "block.kazahana.hard_ice": "d‚¢•X",
+      "item.kazahana.hardice_axe": "d‚¢•X‚Ì•€",
+      "item.kazahana.test": "Test Portal Igniter",
+      "item.kazahana.snow_golem_crystals": "ƒXƒmƒEƒS[ƒŒƒ€‚ÌŒ‹»",
+      "itemGroup.tabtab_tools": "Tools [Kazahana]",
+      "item.kazahana.hardice_sword": "d‚¢•X‚ÌŒ•",
+      "itemGroup.tabtab_foods": "Foods [Kazahana]",
+      "item.kazahana.hardice_hoe": "d‚¢•X‚ÌƒNƒ",
+      "item.kazahana.hardice_pickaxe": "d‚¢•X‚Ìƒcƒ‹ƒnƒV",
+      "block.kazahana.glistening_ice": "‹P‚­•X",
+      "itemGroup.tabtab_materials": "Blocks/Materials [Kazahana]",
+      "item.kazahana.hardice_shovel": "d‚¢•X‚ÌƒVƒƒƒxƒ‹",
+      "block.kazahana.mgu": "MGU"
     }
   },
   "workspaceSettings": {
