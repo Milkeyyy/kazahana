@@ -422,6 +422,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "HardIceToIceIngotRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_ice_to_ice_ingot_recipe"
     }
   ],
   "variable_elements": [
@@ -469,14 +478,14 @@
       "item.kazahana.hard_ice_armor_armor_leggings": "d‚¢•X‚ÌƒŒƒMƒ“ƒX",
       "block.kazahana.hard_ice": "d‚¢•X",
       "item.kazahana.hardice_axe": "d‚¢•X‚Ì•€",
-      "item.kazahana.ice_ingot": "Ice",
+      "item.kazahana.ice_ingot": "•XƒCƒ“ƒSƒbƒg",
       "item.kazahana.ezo_deer": "ƒGƒ]ƒVƒJ‚ÌƒXƒ|[ƒ“ƒGƒbƒO",
       "item.kazahana.test": "Test Portal Igniter",
       "entity.kazahana.ezo_deer": "ƒGƒ]ƒVƒJ",
       "item.kazahana.snow_golem_crystals": "ƒXƒmƒEƒS[ƒŒƒ€‚ÌŒ‹»",
       "itemGroup.tabtab_tools": "ƒc[ƒ‹ [Kazahana]",
       "item.kazahana.hard_ice_armor_armor_boots": "d‚¢•X‚Ìƒu[ƒc",
-      "block.kazahana.ice_ore": "Ice Ore",
+      "block.kazahana.ice_ore": "•XzÎ",
       "item.kazahana.hardice_sword": "d‚¢•X‚ÌŒ•",
       "itemGroup.tabtab_foods": "H‚×•¨ [Kazahana]",
       "item.kazahana.hardice_hoe": "d‚¢•X‚ÌƒNƒ",

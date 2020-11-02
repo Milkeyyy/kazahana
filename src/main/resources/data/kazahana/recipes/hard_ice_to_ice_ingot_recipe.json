@@ -1,0 +1,19 @@
+{
+  "group": "iceingot",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "kazahana:hard_ice"
+    },
+    "1": {
+      "item": "kazahana:hard_ice"
+    }
+  },
+  "result": {
+    "item": "kazahana:ice_ingot",
+    "count": 2
+  }
+}
