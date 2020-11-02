@@ -23,7 +23,7 @@ public class SnowgolemCrystalsItem extends KazahanaModElements.ModElement {
 	@ObjectHolder("kazahana:snow_golem_crystals")
 	public static final Item block = null;
 	public SnowgolemCrystalsItem(KazahanaModElements instance) {
-		super(instance, 10);
+		super(instance, 12);
 	}
 
 	@Override

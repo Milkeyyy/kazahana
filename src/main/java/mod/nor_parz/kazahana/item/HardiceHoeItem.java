@@ -10,7 +10,6 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
 import mod.nor_parz.kazahana.itemgroup.TabToolsItemGroup;
-import mod.nor_parz.kazahana.block.HardiceBlock;
 import mod.nor_parz.kazahana.KazahanaModElements;
 
 @KazahanaModElements.ModElement.Tag
@@ -18,7 +17,7 @@ public class HardiceHoeItem extends KazahanaModElements.ModElement {
 	@ObjectHolder("kazahana:hardice_hoe")
 	public static final Item block = null;
 	public HardiceHoeItem(KazahanaModElements instance) {
-		super(instance, 7);
+		super(instance, 4);
 	}
 
 	@Override
@@ -45,7 +44,7 @@ public class HardiceHoeItem extends KazahanaModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(HardiceBlock.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(IceIngotItem.block, (int) (1)));
 			}
 		}, -3f, new Item.Properties().group(TabToolsItemGroup.tab)) {
 		}.setRegistryName("hardice_hoe"));

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "kazahana:blocks/ice_ore",
+    "particle": "kazahana:blocks/ice_ore"
+  }
+}

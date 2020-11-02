@@ -105,7 +105,7 @@ public class MafuyuDimension extends KazahanaModElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public MafuyuDimension(KazahanaModElements instance) {
-		super(instance, 7);
+		super(instance, 6);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
@@ -126,8 +126,8 @@ public class MafuyuDimension extends KazahanaModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("snowy_tundra")),
-				ForgeRegistries.BIOMES.getValue(new ResourceLocation("snowy_taiga")),
-				ForgeRegistries.BIOMES.getValue(new ResourceLocation("snowy_taiga_hills")),};
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("snowy_taiga_hills")),
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("kazahana:mafuyu_biome")),};
 	}
 
 	@Override

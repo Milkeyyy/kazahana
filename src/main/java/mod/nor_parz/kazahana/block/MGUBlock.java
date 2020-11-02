@@ -22,7 +22,7 @@ public class MGUBlock extends KazahanaModElements.ModElement {
 	@ObjectHolder("kazahana:mgu")
 	public static final Block block = null;
 	public MGUBlock(KazahanaModElements instance) {
-		super(instance, 14);
+		super(instance, 20);
 	}
 
 	@Override

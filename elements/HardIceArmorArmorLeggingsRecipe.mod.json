@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Hardice"
+        "value": "CUSTOM:IceIngot"
       },
       {
-        "value": "CUSTOM:Hardice"
+        "value": "CUSTOM:IceIngot"
       },
       {
-        "value": "CUSTOM:Hardice"
+        "value": "CUSTOM:IceIngot"
       },
       {
-        "value": "CUSTOM:Hardice"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Hardice"
-      },
-      {
-        "value": "CUSTOM:Hardice"
+        "value": "CUSTOM:IceIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Hardice"
+        "value": "CUSTOM:IceIngot"
+      },
+      {
+        "value": "CUSTOM:IceIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IceIngot"
       }
     ],
     "recipeReturnStack": {

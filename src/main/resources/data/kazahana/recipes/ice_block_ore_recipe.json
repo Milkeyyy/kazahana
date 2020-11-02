@@ -1,0 +1,13 @@
+{
+  "group": "iceingot",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kazahana:ice_ore_block"
+    }
+  ],
+  "result": {
+    "item": "kazahana:ice_ingot",
+    "count": 9
+  }
+}

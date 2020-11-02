@@ -13,7 +13,7 @@ import mod.nor_parz.kazahana.KazahanaModElements;
 @KazahanaModElements.ModElement.Tag
 public class TabToolsItemGroup extends KazahanaModElements.ModElement {
 	public TabToolsItemGroup(KazahanaModElements instance) {
-		super(instance, 9);
+		super(instance, 15);
 	}
 
 	@Override

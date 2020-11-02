@@ -24,7 +24,7 @@ public class HardiceBlock extends KazahanaModElements.ModElement {
 	@ObjectHolder("kazahana:hard_ice")
 	public static final Block block = null;
 	public HardiceBlock(KazahanaModElements instance) {
-		super(instance, 3);
+		super(instance, 8);
 	}
 
 	@Override

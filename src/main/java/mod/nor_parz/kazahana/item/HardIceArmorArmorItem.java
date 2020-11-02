@@ -16,7 +16,6 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import mod.nor_parz.kazahana.itemgroup.TabToolsItemGroup;
-import mod.nor_parz.kazahana.block.HardiceBlock;
 import mod.nor_parz.kazahana.KazahanaModElements;
 
 @KazahanaModElements.ModElement.Tag
@@ -30,7 +29,7 @@ public class HardIceArmorArmorItem extends KazahanaModElements.ModElement {
 	@ObjectHolder("kazahana:hard_ice_armor_armor_boots")
 	public static final Item boots = null;
 	public HardIceArmorArmorItem(KazahanaModElements instance) {
-		super(instance, 20);
+		super(instance, 7);
 	}
 
 	@Override
@@ -53,7 +52,7 @@ public class HardIceArmorArmorItem extends KazahanaModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(HardiceBlock.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(IceIngotItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)

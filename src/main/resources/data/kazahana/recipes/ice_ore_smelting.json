@@ -1,0 +1,12 @@
+{
+  "group": "iceingot",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "kazahana:ice_ore"
+  },
+  "result": {
+    "item": "kazahana:ice_ingot"
+  }
+}

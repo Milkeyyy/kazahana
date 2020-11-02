@@ -13,7 +13,7 @@ import mod.nor_parz.kazahana.KazahanaModElements;
 @KazahanaModElements.ModElement.Tag
 public class TabFoodsItemGroup extends KazahanaModElements.ModElement {
 	public TabFoodsItemGroup(KazahanaModElements instance) {
-		super(instance, 13);
+		super(instance, 17);
 	}
 
 	@Override

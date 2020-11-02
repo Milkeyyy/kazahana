@@ -4,7 +4,7 @@
     {
       "name": "Test",
       "type": "dimension",
-      "sortid": 12,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "TabTools",
       "type": "tab",
-      "sortid": 13,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "TabMaterials",
       "type": "tab",
-      "sortid": 14,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "TabFoods",
       "type": "tab",
-      "sortid": 15,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "HardiceRecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "TestBiome",
       "type": "biome",
-      "sortid": 17,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "MGU",
       "type": "block",
-      "sortid": 18,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "SnowgolemCrystals",
       "type": "item",
-      "sortid": 10,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "SnowGolemCrystalsDropLoot",
       "type": "loottable",
-      "sortid": 19,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -157,7 +157,7 @@
     {
       "name": "GlisteningIceRecipe",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -166,7 +166,7 @@
     {
       "name": "HardIceLootTable",
       "type": "loottable",
-      "sortid": 21,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -190,7 +190,7 @@
     {
       "name": "HardIceArmorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -199,7 +199,7 @@
     {
       "name": "HardIceArmorArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -208,7 +208,7 @@
     {
       "name": "HardIceArmorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -217,7 +217,7 @@
     {
       "name": "HardIceArmorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -226,7 +226,7 @@
     {
       "name": "HardIcePickaxeRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -235,7 +235,7 @@
     {
       "name": "HardIceAxeRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -244,7 +244,7 @@
     {
       "name": "HardIceShovelRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -253,7 +253,7 @@
     {
       "name": "HardIceSwordRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -262,7 +262,7 @@
     {
       "name": "HardIceHoeRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -271,14 +271,173 @@
     {
       "name": "EzoDeer",
       "type": "mob",
-      "sortid": 11,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "ezo_deer"
+    },
+    {
+      "name": "IceIngot",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_ingot"
+    },
+    {
+      "name": "IceOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_ore"
+    },
+    {
+      "name": "IceOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_ore_block_recipe"
+    },
+    {
+      "name": "IceBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_block_ore_recipe"
+    },
+    {
+      "name": "IceOreSmelting",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_ore_smelting"
+    },
+    {
+      "name": "MafuyuBiome",
+      "type": "biome",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mafuyu_biome"
+    },
+    {
+      "name": "DebugGUI",
+      "type": "gui",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "debug_gui"
+    },
+    {
+      "name": "DebugGUIOpenCommandExecuted",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "debug_gui_open_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebugGUIOpenCommand",
+      "type": "command",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "debug_gui_open_command"
+    },
+    {
+      "name": "EntityGotoDimension",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entity_goto_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "version",
+      "type": "string",
+      "scope": "global",
+      "value": "0.0.2-test"
+    },
+    {
+      "name": "command_index_temp",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": ""
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -286,12 +445,14 @@
       "item.kazahana.hard_ice_armor_armor_leggings": "Hard Ice Leggings",
       "block.kazahana.hard_ice": "Hard Ice",
       "item.kazahana.hardice_axe": "Hard Ice Axe",
+      "item.kazahana.ice_ingot": "Ice Ingot",
       "item.kazahana.ezo_deer": "Ezo Deer Spawn Egg",
       "item.kazahana.test": "Test Portal Igniter",
       "entity.kazahana.ezo_deer": "Ezo Deer",
       "item.kazahana.snow_golem_crystals": "Snow Golem Crystals",
       "itemGroup.tabtab_tools": "Tools [Kazahana]",
       "item.kazahana.hard_ice_armor_armor_boots": "Hard Ice Boots",
+      "block.kazahana.ice_ore": "Ice Ore",
       "item.kazahana.hardice_sword": "Hard Ice Sword",
       "itemGroup.tabtab_foods": "Foods [Kazahana]",
       "item.kazahana.hardice_hoe": "Hard Ice Hoe",
@@ -308,12 +469,14 @@
       "item.kazahana.hard_ice_armor_armor_leggings": "çdÇ¢ïXÇÃÉåÉMÉìÉX",
       "block.kazahana.hard_ice": "çdÇ¢ïX",
       "item.kazahana.hardice_axe": "çdÇ¢ïXÇÃïÄ",
+      "item.kazahana.ice_ingot": "Ice",
       "item.kazahana.ezo_deer": "ÉGÉ]ÉVÉJÇÃÉXÉ|Å[ÉìÉGÉbÉO",
       "item.kazahana.test": "Test Portal Igniter",
       "entity.kazahana.ezo_deer": "ÉGÉ]ÉVÉJ",
       "item.kazahana.snow_golem_crystals": "ÉXÉmÉEÉSÅ[ÉåÉÄÇÃåãèª",
       "itemGroup.tabtab_tools": "ÉcÅ[Éã [Kazahana]",
       "item.kazahana.hard_ice_armor_armor_boots": "çdÇ¢ïXÇÃÉuÅ[Éc",
+      "block.kazahana.ice_ore": "Ice Ore",
       "item.kazahana.hardice_sword": "çdÇ¢ïXÇÃåï",
       "itemGroup.tabtab_foods": "êHÇ◊ï® [Kazahana]",
       "item.kazahana.hardice_hoe": "çdÇ¢ïXÇÃÉNÉè",

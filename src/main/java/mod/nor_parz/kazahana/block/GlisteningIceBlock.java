@@ -30,7 +30,7 @@ public class GlisteningIceBlock extends KazahanaModElements.ModElement {
 	@ObjectHolder("kazahana:glistening_ice")
 	public static final Block block = null;
 	public GlisteningIceBlock(KazahanaModElements instance) {
-		super(instance, 17);
+		super(instance, 9);
 	}
 
 	@Override

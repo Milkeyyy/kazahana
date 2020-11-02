@@ -10,7 +10,6 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
 import mod.nor_parz.kazahana.itemgroup.TabToolsItemGroup;
-import mod.nor_parz.kazahana.block.HardiceBlock;
 import mod.nor_parz.kazahana.KazahanaModElements;
 
 @KazahanaModElements.ModElement.Tag
@@ -18,7 +17,7 @@ public class HardiceAxeItem extends KazahanaModElements.ModElement {
 	@ObjectHolder("kazahana:hardice_axe")
 	public static final Item block = null;
 	public HardiceAxeItem(KazahanaModElements instance) {
-		super(instance, 6);
+		super(instance, 3);
 	}
 
 	@Override
@@ -45,7 +44,7 @@ public class HardiceAxeItem extends KazahanaModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(HardiceBlock.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(IceIngotItem.block, (int) (1)));
 			}
 		}, 1, -3.1f, new Item.Properties().group(TabToolsItemGroup.tab)) {
 		}.setRegistryName("hardice_axe"));

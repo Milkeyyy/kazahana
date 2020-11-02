@@ -1,0 +1,101 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 330,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Go Dimension",
+          "onClick": {
+            "name": "EntityGotoDimension"
+          },
+          "width": 162,
+          "height": 40,
+          "name": "Go Dimension",
+          "x": 444,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Version <VAR:version>",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Version <VAR:version>",
+          "x": 246,
+          "y": 366
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 198,
+          "height": 40,
+          "name": "DimensionName",
+          "x": 246,
+          "y": 96
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Kazahana Mod - Debug Menu",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Kazahana Mod - Debug Menu",
+          "x": 246,
+          "y": 348
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dimension Name (minecraft:overworld)",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Dimension Name (minecraft:overworld)",
+          "x": 246,
+          "y": 78
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "0 100 0",
+          "width": 198,
+          "height": 40,
+          "name": "DImensionPosition",
+          "x": 246,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Position (x y z)",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Position (x y z)",
+          "x": 246,
+          "y": 132
+        }
+      }
+    ]
+  }
+}

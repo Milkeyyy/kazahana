@@ -48,7 +48,7 @@ import mod.nor_parz.kazahana.KazahanaModElements;
 public class EzoDeerEntity extends KazahanaModElements.ModElement {
 	public static EntityType entity = null;
 	public EzoDeerEntity(KazahanaModElements instance) {
-		super(instance, 11);
+		super(instance, 13);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
