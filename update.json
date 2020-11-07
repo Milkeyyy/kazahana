@@ -2,7 +2,7 @@
 {
   "homepage": "https://github.com/Milkeyyy/kazahana/releases",
   "1.14.4": {
-    "0.0.1-test": "First release (For operation test)"
+    "0.0.1-test": "First release (For operation test) [Commit: 26cf8531b2c7a0986d11768a4d3ece06632751cf]"
   },
   "promos": {
     "1.14.4-latest": "0.0.1-test"
