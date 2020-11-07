@@ -136,6 +136,19 @@ public class DebugGUIGui extends KazahanaModElements.ModElement {
 		}
 
 		@Override
+		public boolean keyPressed(int key, int b, int c) {
+			if (key == 256) {
+				this.minecraft.player.closeScreen();
+				return true;
+			}
+			if (DimensionName.isFocused())
+				return DimensionName.keyPressed(key, b, c);
+			if (DImensionPosition.isFocused())
+				return DImensionPosition.keyPressed(key, b, c);
+			return super.keyPressed(key, b, c);
+		}
+
+		@Override
 		public void tick() {
 			super.tick();
 			DimensionName.tick();
@@ -148,19 +161,6 @@ public class DebugGUIGui extends KazahanaModElements.ModElement {
 			this.font.drawString("Kazahana Mod - Debug Menu", 10, 137, -16777216);
 			this.font.drawString("Dimension Name (minecraft:overworld)", 10, 2, -10066330);
 			this.font.drawString("Position (x y z)", 10, 29, -10066330);
-		}
-
-		@Override
-		public boolean keyPressed(int key, int b, int c) {
-			if (key == 256) {
-				this.minecraft.player.closeScreen();
-				return true;
-			}
-			if (DimensionName.isFocused())
-				return DimensionName.keyPressed(key, b, c);
-			if (DImensionPosition.isFocused())
-				return DImensionPosition.keyPressed(key, b, c);
-			return super.keyPressed(key, b, c);
 		}
 
 		@Override

@@ -53,26 +53,27 @@ public class EntityGotoDimensionProcedure extends KazahanaModElements.ModElement
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
-			world.getWorld().getServer().getCommandManager().handleCommand(
-					new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
-							new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
-					(("excute in ") + "" + ((new Object() {
-						public String getText() {
-							TextFieldWidget textField = (TextFieldWidget) guistate.get("text:DimensionName");
-							if (textField != null) {
-								return textField.getText();
-							}
-							return "";
-						}
-					}.getText())) + "" + ((("run tp ") + "" + (((entity) + "" + (" "))) + "" + ((new Object() {
-						public String getText() {
-							TextFieldWidget textField = (TextFieldWidget) guistate.get("text:DimensionPosition");
-							if (textField != null) {
-								return textField.getText();
-							}
-							return "";
-						}
-					}.getText()))))));
+			world.getWorld().getServer().getCommandManager()
+					.handleCommand(
+							new CommandSource(ICommandSource.DUMMY, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							(("excute in ") + "" + ((new Object() {
+								public String getText() {
+									TextFieldWidget textField = (TextFieldWidget) guistate.get("text:DimensionName");
+									if (textField != null) {
+										return textField.getText();
+									}
+									return "";
+								}
+							}.getText())) + "" + ((("run tp ") + "" + (((entity) + "" + (" "))) + "" + ((new Object() {
+								public String getText() {
+									TextFieldWidget textField = (TextFieldWidget) guistate.get("text:DimensionPosition");
+									if (textField != null) {
+										return textField.getText();
+									}
+									return "";
+								}
+							}.getText()))))));
 		}
 	}
 }

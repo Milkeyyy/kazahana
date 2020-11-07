@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[28,)"
+loaderVersion="[31,)"
 
 [[mods]]
 modId="kazahana"
@@ -17,7 +17,7 @@ Kazahana Mod adds new winter-themed dimensions and items to the world of Minecra
 [[dependencies.kazahana]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.14.4]"
+    versionRange="[1.15.2]"
     ordering="NONE"
     side="BOTH"
 
