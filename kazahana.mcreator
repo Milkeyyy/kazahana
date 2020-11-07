@@ -507,6 +507,7 @@
     "websiteURL": "(JP): http://bit.ly/nor-parz_kazahanamod-ws | Wiki(JP): https://github.com/Milkeyyy/kazahana/wiki",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "updateURL": "https://raw.githubusercontent.com/Milkeyyy/kazahana/master/update.json",
     "modPicture": "kazahana_logo_v2-1_1_test",
     "requiredMods": [],
     "dependencies": [],
